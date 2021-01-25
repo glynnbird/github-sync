@@ -1,0 +1,28 @@
+{
+  "name": "github-cloudant-sync",
+  "version": "1.0.0",
+  "description": "Serverless sync service to copy GitHub .json files into Cloudant/CouchDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "standard": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glynnbird/github-sync.git"
+  },
+  "keywords": [
+    "GitHub",
+    "CouchDB",
+    "Cloudant"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/glynnbird/github-sync/issues"
+  },
+  "homepage": "https://github.com/glynnbird/github-sync#readme",
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
